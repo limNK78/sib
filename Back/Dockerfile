@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:jdk-slim-bullseye
 WORKDIR /src
 COPY . .
 RUN ./gradlew bootJar
